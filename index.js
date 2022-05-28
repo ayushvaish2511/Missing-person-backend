@@ -20,7 +20,7 @@ DbConnect();
 app.use(express.json());
 var corsOptions = {
 
-    origin: 'https://travel-site-blog.netlify.app',
+    origin: 'http://missing-person-personnel.herokuapp.com/',
     optionsSuccessStatus: 200, // For legacy browser support
     credentials: true,
     origin: true,
