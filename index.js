@@ -31,7 +31,7 @@ app.use(cors(corsOptions));
 
 
 
-app.use("/api/tour", tour_middleware, tourRoute);
+app.use("/api/tour", tourRoute);
 app.use("/api/signup", signRoute);
 app.use("/api/login", loginRoute);
 
